@@ -1,4 +1,4 @@
-# Multi-objective_MGCVAE
+# Multi-objective MGCVAE & MGVAE 
 
 ```cd ./code/```
 

@@ -1,12 +1,13 @@
 # MGCVAE_Multi-objective_Optimization
 
 
-#### MGCVAE: Multi-objective Inverse Design via Molecular Graph Conditional Variational Autoencoder
+#### MGCVAE: Multi-Objective Inverse Design via Molecular Graph Conditional Variational Autoencoder
+
+<a href="https://doi.org/10.1021/acs.jcim.2c00487">https://doi.org/10.1021/acs.jcim.2c00487</a>
 
 Myeonghun Lee+, Kyoungmin Min*
 
-https://arxiv.org/abs/2202.07476
-
+J. Chem. Inf. Model.
 
 ```cd ./code/```
 

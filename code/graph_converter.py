@@ -9,17 +9,9 @@ def graph_features(mol, atom_labels, max_length=None):
     features = np.array([[*[a.GetAtomicNum() == i for i in atom_labels]] for a in mol.GetAtoms()], dtype=np.int32)
     return np.vstack((features, np.zeros((max_length - features.shape[0], features.shape[1]))))
 
-# def feature_size(feature, atom_labels, atom_number): 
-#     feature = graph_features(feature, atom_labels)
-#     feature = torch.cat([torch.tensor(feature), torch.zeros(atom_number-feature.shape[0], feature.shape[1])], 0)
-#     for i in range(feature.shape[0]):
-#         if 1 not in feature[i]:
-#             feature[i, 0] = 1
-#     return feature
-
 def feature_size(mol, atom_labels, max_length=None): 
-    feature = graph_features(mol, atom_labels, max_length=None)
-    feature = torch.cat([torch.tensor(feature), torch.zeros([atom_number-feature.shape[0], feature.shape[1]])], 0)
+    feature = graph_features(mol, atom_labels, max_length)
+    feature = torch.cat([torch.tensor(feature), torch.zeros([max_length-feature.shape[0], feature.shape[1]])], 0)
     for i in range(feature.shape[0]):
         if 1 not in feature[i]:
             feature[i, 0] = 1

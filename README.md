@@ -1,5 +1,6 @@
 # MGCVAE_Multi-objective_Optimization
 
+<img src="https://github.com/mhlee216/MGCVAE/blob/main/main.png">
 
 #### MGCVAE: Multi-Objective Inverse Design via Molecular Graph Conditional Variational Autoencoder
 

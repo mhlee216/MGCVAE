@@ -6,7 +6,7 @@
 
 <a href="https://doi.org/10.1021/acs.jcim.2c00487">https://doi.org/10.1021/acs.jcim.2c00487</a>
 
-Myeonghun Lee+, Kyoungmin Min*
+Myeonghun Lee<sup>+,</sup>, Kyoungmin Min*
 
 J. Chem. Inf. Model.
 

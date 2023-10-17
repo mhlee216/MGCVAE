@@ -8,7 +8,7 @@
 
 Myeonghun Lee<sup>+</sup>, Kyoungmin Min*
 
-J. Chem. Inf. Model.
+Journal of Chemical Information and Modeling
 
 ```cd ./code/```
 
